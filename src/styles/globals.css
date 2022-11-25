@@ -28,3 +28,10 @@ a {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.searchInput {
+  @apply absolute;
+  top: 50%;
+  left: 5px;
+  transform: translate(0, -50%);
+}
